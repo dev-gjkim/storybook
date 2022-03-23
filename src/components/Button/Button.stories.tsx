@@ -148,7 +148,9 @@ export const All = () => {
             <Button variant="text" size='large' color='primary'>Button</Button>
           </div>
           <div className={styles['sub-content']}>
-            <div className={styles.label}>outlined</div>
+            <div className={styles.label}>outlined
+              <span className={styles['no-use']}> !현재 정의된 디자인 없음</span>
+            </div>
             <Button variant="outlined" size='small' color='primary'>Button</Button>
             <Button variant="outlined" color='primary'>Button</Button>
             <Button variant="outlined" size='large' color='primary'>Button</Button>
