@@ -91,7 +91,7 @@ type ButtonProps = Pick<MuiButtonProps, "size" | "color" | "variant" | "disabled
 /**
  * `Button`
  */
-export const Button = ({
+export const InputText = ({
   children,
   ...props
 }: ButtonProps) => {

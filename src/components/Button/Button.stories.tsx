@@ -1,10 +1,8 @@
 import React, { Children } from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { ThemeProvider } from '@material-ui/core';
 
 import { Button } from './Button';
 import styles from './button.module.scss'
-import { PreviousTheme } from './theme';
 
 export default {
   title: 'Component/Button',
