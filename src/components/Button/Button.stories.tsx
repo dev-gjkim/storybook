@@ -80,7 +80,9 @@ export const All = () => {
             <Button size="medium">Button</Button>
           </div>
           <div className={styles['sub-content']}>
-            <div className={styles.label}>Large</div>
+            <div className={styles.label}>Large
+              <span className={styles['no-use']}> !현재 정의된 디자인 없음</span>
+            </div>
             <Button size="large">Button</Button>
           </div>
         </div>

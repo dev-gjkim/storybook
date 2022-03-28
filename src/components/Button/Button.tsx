@@ -99,7 +99,6 @@ export const Button = ({
   return (
     <MuiButton
       classes={classes}
-      type="button"
       {...props}
     >
       {children}
